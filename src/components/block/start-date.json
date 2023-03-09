@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_block_start_dates",
+  "info": {
+    "displayName": "startDate"
+  },
+  "options": {},
+  "attributes": {
+    "startDate": {
+      "type": "datetime"
+    }
+  }
+}
