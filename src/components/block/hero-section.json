@@ -19,8 +19,12 @@
       "component": "shared.button"
     },
     "alignment": {
-      "type": "string",
-      "required": true
+      "type": "enumeration",
+      "enum": [
+        "center",
+        "left",
+        "right"
+      ]
     }
   }
 }
