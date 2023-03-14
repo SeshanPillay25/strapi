@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_navlinks",
+  "info": {
+    "displayName": "Navlink",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "href": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "pages": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    }
+  }
+}

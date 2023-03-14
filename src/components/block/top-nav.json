@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_block_top_navs",
+  "info": {
+    "displayName": "TopNav"
+  },
+  "options": {},
+  "attributes": {
+    "navlink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.navlink"
+    }
+  }
+}
