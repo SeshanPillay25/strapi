@@ -38,6 +38,11 @@
     },
     "href": {
       "type": "string"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.seo"
     }
   }
 }
