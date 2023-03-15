@@ -17,13 +17,6 @@
       "repeatable": true,
       "component": "shared.navlink"
     },
-    "navZone": {
-      "type": "dynamiczone",
-      "components": [
-        "shared.navlink",
-        "shared.text-field"
-      ]
-    },
     "topnav": {
       "type": "component",
       "repeatable": true,
