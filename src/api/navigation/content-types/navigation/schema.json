@@ -4,7 +4,8 @@
   "info": {
     "singularName": "navigation",
     "pluralName": "navigations",
-    "displayName": "Navigation"
+    "displayName": "Navigation",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,6 +16,18 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.navlink"
+    },
+    "navZone": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.navlink",
+        "shared.text-field"
+      ]
+    },
+    "topnav": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block.top-nav"
     }
   }
 }

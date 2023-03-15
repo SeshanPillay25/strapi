@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_text_fields",
+  "info": {
+    "displayName": "TextField"
+  },
+  "options": {},
+  "attributes": {
+    "navLabel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
