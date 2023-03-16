@@ -16,6 +16,7 @@
     "@strapi/plugin-users-permissions": "4.7.1",
     "@strapi/provider-upload-cloudinary": "4.5.5",
     "@strapi/strapi": "4.7.1",
+    "better-sqlite3": "^8.2.0",
     "pg": "8.8.0",
     "strapi-plugin-populate-deep": "^2.0.0"
   },
