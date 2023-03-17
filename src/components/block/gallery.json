@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_block_galleries",
+  "info": {
+    "displayName": "Gallery"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block.media"
+    }
+  }
+}
