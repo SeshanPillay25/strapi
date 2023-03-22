@@ -21,6 +21,11 @@
       "type": "component",
       "repeatable": true,
       "component": "block.top-nav"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block.footer"
     }
   }
 }

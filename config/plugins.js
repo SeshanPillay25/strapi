@@ -19,6 +19,9 @@ module.exports = ({ env }) => ({
           upload: {},
           delete: {},
         },
+        seo: {
+          enabled: true,
+        },
       },
     },
   });

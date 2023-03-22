@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_block_footers",
+  "info": {
+    "displayName": "Footer"
+  },
+  "options": {},
+  "attributes": {
+    "footerSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.footer-section"
+    }
+  }
+}

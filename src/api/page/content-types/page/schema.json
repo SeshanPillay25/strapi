@@ -28,7 +28,8 @@
       "components": [
         "shared.button",
         "shared.navlink",
-        "block.hero-section"
+        "block.hero-section",
+        "block.gallery"
       ]
     },
     "slug": {
