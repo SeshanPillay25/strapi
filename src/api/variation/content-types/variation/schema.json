@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "variations",
+  "info": {
+    "singularName": "variation",
+    "pluralName": "variations",
+    "displayName": "Variation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "content": {
+      "type": "json"
+    },
+    "feature_flag": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::feature-flag.feature-flag"
+    },
+    "backGroundColor": {
+      "type": "string"
+    }
+  }
+}

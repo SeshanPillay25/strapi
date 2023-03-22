@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "feature_flags",
+  "info": {
+    "singularName": "feature-flag",
+    "pluralName": "feature-flags",
+    "displayName": "FeatureFlag",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "enabled": {
+      "type": "boolean"
+    },
+    "segmentation": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "percentage",
+        "user_groups"
+      ]
+    },
+    "percentage": {
+      "type": "integer"
+    },
+    "user_groups": {
+      "type": "json"
+    },
+    "variations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::variation.variation"
+    }
+  }
+}
