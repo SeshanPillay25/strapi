@@ -1,4 +1,7 @@
 module.exports = ({ env }) => ({
+    'content-versioning': {
+      enabled:  true,
+    },
     'users-permissions': {
       config: {
       jwtSecret: env('JWT_SECRET'),

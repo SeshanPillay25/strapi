@@ -1885,6 +1885,15 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@notum-cz/strapi-plugin-content-versioning@^0.4.7":
+  version "0.4.7"
+  resolved "https://registry.npmjs.org/@notum-cz/strapi-plugin-content-versioning/-/strapi-plugin-content-versioning-0.4.7.tgz"
+  integrity sha512-Hy5Uw/FWpdWJ1CmbLwCBfMZWB1wpZrhaIttT1yz8T7WNRaVpEgTXrv9xOT5XUTsTIA5kfKv1O1kWjfiBqKa4pg==
+  dependencies:
+    "@strapi/utils" "^4.0.0"
+    lodash "^4.17.21"
+    uuid "^8.3.2"
+
 "@pmmmwh/react-refresh-webpack-plugin@0.5.10":
   version "0.5.10"
   resolved "https://registry.npmjs.org/@pmmmwh/react-refresh-webpack-plugin/-/react-refresh-webpack-plugin-0.5.10.tgz"
@@ -2461,18 +2470,7 @@
     prettier "2.8.4"
     typescript "4.6.2"
 
-"@strapi/utils@4.5.5":
-  version "4.5.5"
-  resolved "https://registry.npmjs.org/@strapi/utils/-/utils-4.5.5.tgz"
-  integrity sha512-Kqdt8wYc6w7RW9JIw0wi6SNDw6OQxmAcUIsZL4IPteRY7x/ACbgqPvfq0LymUc9VE/gAocbm5jG/fRmbbfJcwA==
-  dependencies:
-    "@sindresorhus/slugify" "1.1.0"
-    date-fns "2.29.3"
-    http-errors "1.8.1"
-    lodash "4.17.21"
-    yup "0.32.9"
-
-"@strapi/utils@4.7.1":
+"@strapi/utils@^4.0.0", "@strapi/utils@4.7.1":
   version "4.7.1"
   resolved "https://registry.npmjs.org/@strapi/utils/-/utils-4.7.1.tgz"
   integrity sha512-qlUG5//Rk1Yr+PYcE9S+Q76qjxFIQBZEkw8psk6E287bO8Fd7AKshF1HXaQJkSD+hncYnPmLt5Uhe/r22xX/PA==
@@ -2482,6 +2480,17 @@
     http-errors "1.8.1"
     lodash "4.17.21"
     p-map "4.0.0"
+    yup "0.32.9"
+
+"@strapi/utils@4.5.5":
+  version "4.5.5"
+  resolved "https://registry.npmjs.org/@strapi/utils/-/utils-4.5.5.tgz"
+  integrity sha512-Kqdt8wYc6w7RW9JIw0wi6SNDw6OQxmAcUIsZL4IPteRY7x/ACbgqPvfq0LymUc9VE/gAocbm5jG/fRmbbfJcwA==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "2.29.3"
+    http-errors "1.8.1"
+    lodash "4.17.21"
     yup "0.32.9"
 
 "@swc/helpers@^0.4.14":
