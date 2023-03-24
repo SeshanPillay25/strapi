@@ -1,4 +1,24 @@
 module.exports = ({ env }) => ({
+  'preview-button': {
+    config: {
+      contentTypes: [
+        {
+          uid: 'api::page.page',
+          draft: {
+            url: 'http://localhost:3000/preview/',
+            query: {
+              // type: 'page',
+              slug: '{slug}',
+            },
+          },
+          published: {
+            url: `${env("CLIENT_FRONTEND_URL")}{slug}`,
+          },
+        },
+      ]
+    }
+
+  },
   "content-versioning": {
 		enabled:  true,
 	},
