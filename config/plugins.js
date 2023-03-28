@@ -5,14 +5,15 @@ module.exports = ({ env }) => ({
         {
           uid: 'api::page.page',
           draft: {
-            url: 'http://localhost:3000/preview/',
-            query: {
-              // type: 'page',
-              slug: '{slug}',
-            },
+            url: `${env("CLIENT_FRONTEND_URL")}preview/{id}`,
+            // query: {
+            //   // type: 'page',
+            //   id: '{id}',
+            //   // slug: '{slug}',
+            // },
           },
           published: {
-            url: `${env("CLIENT_FRONTEND_URL")}{slug}`,
+            url: `${env("CLIENT_FRONTEND_URL")}taos/{slug}`,
           },
         },
       ]
