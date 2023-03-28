@@ -42,19 +42,21 @@ const customRouter = (innerRouter, routeOveride = [], extraRoutes = []) => {
 
 // Overide the default router with the custom router to use slug.
 const myOverideRoutes = [
+  //Uncomment
   // {
   //   method: "GET",
   //   path: "/pages/:slug",
-  //   handler: "api::page.page.findOne",
-  // }
+  //   handler: "api::page.page.findOneBySlug",
+  // },
 ];
 
 const myExtraRoutes = [
-//   {
-//   method: "GET",
-//   path: "/pages/:id",
-//   handler: "api::page.page.findOnebyId",
-// }
+  {
+    //Change to find by ID
+    method: "GET",
+    path: "/pages/slug/:slug",
+    handler: "api::page.page.findOneBySlug",
+  },
 ];
 
 module.exports = customRouter(defaultRouter, myOverideRoutes, myExtraRoutes);
