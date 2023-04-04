@@ -7,7 +7,6 @@
 const { createCoreController } = require("@strapi/strapi").factories;
 
 module.exports = createCoreController("api::page.page", ({ strapi }) => ({
-  //Change to findById
   async findOne(ctx) {
     const { slug } = ctx.params;
 
