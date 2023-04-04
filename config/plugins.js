@@ -1,4 +1,22 @@
 module.exports = ({ env }) => ({
+  "preview-button": {
+    config: {
+      contentTypes: [
+        {
+          uid: "api::page.page",
+          draft: {
+            url: `${env("CLIENT_FRONTEND_URL")}preview/{id}`,
+          },
+          published: {
+            url: `${env("CLIENT_FRONTEND_URL")}taos/{slug}`,
+          },
+        },
+      ],
+    },
+  },
+  "content-versioning": {
+    enabled: true,
+  },
   "users-permissions": {
     config: {
       jwtSecret: env("JWT_SECRET"),

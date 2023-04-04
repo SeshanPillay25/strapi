@@ -46,9 +46,15 @@ const myOverideRoutes = [
     method: "GET",
     path: "/pages/:slug",
     handler: "api::page.page.findOne",
-  },
+  }
 ];
 
-const myExtraRoutes = [];
+const myExtraRoutes = [
+  {
+  method: "GET",
+  path: "/pages/id/:id",
+  handler: "api::page.page.findOnebyId",
+}
+];
 
 module.exports = customRouter(defaultRouter, myOverideRoutes, myExtraRoutes);
